@@ -14,24 +14,22 @@
     <thead>
         <tr>
         <th>
-        @Html.DisplayNameFor(model => model.Nome)
+        @Html.DisplayNameFor(model => model.NomeCompleto)
         </th>
-        <th>
-        @Html.DisplayNameFor(model => model.RG)
-        </th>
+       
         <th>
         @Html.DisplayNameFor(model => model.CPF)
         </th>
         <th>
-        @Html.DisplayNameFor(model => model.Usuario)
-        </th>
-            @*  <th>
-        @Html.DisplayNameFor(model => model.Senha)
-        </th>
-         <th>
-        @Html.DisplayNameFor(model => model.CEP)
+        @Html.DisplayNameFor(model => model.Email)
         </th>
         <th>
+        @Html.DisplayNameFor(model => model.TelefoneCelular)
+        </th>
+         <th>
+        @Html.DisplayNameFor(model => model.Endereço)
+        </th>
+            @*<th>
         @Html.DisplayNameFor(model => model.UF)
         </th>
         <th>
@@ -58,14 +56,12 @@
         <td>
         @Html.DisplayFor(modelItem => item.NomeCompleto)
         </td>
-        <td>
-        @Html.DisplayFor(modelItem => item.RG)
-        </td>
+       
         <td>
         @Html.DisplayFor(modelItem => item.CPF)
         </td>
         <td>
-        @Html.DisplayFor(modelItem => item.Email)
+        @Html.DisplayFor(modelItem => item.CPF)
         </td>
         <td>
         @Html.DisplayFor(modelItem => item.TelefoneCelular)
